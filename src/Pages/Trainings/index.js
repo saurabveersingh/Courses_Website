@@ -35,7 +35,7 @@ const Trainings = () => {
                 {runCallback(() =>{
                     const row = [];
                     for(let i = 0; i < entries; i++) {
-                        row.push(<Card pbc={pbc[i%4]} sbc={sbc[i%4]} logo={logo[i]} name={name[i]} date={date[i]}/>);
+                        row.push(<Card key={i} pbc={pbc[i%4]} sbc={sbc[i%4]} logo={logo[i]} name={name[i]} date={date[i]}/>);
                     }
                     return row;
                 })}

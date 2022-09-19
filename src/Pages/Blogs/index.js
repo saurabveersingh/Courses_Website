@@ -30,7 +30,7 @@ const Blogs = () => {
                         }
                         const row = [];
                         for(let i = 0; i < entries; i++) {
-                            row.push(<Card title={titles[i]} author={authors[i]} img={img[i]} />)
+                            row.push(<Card key={i} title={titles[i]} author={authors[i]} img={img[i]} />)
                     }
                     return row;
                 })}

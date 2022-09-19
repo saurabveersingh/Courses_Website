@@ -22,7 +22,7 @@ const Pm = () => {
                         }
                         const row = [];
                         for(let i = 0; i < entries; i++) {
-                            row.push(<Card img={p[i]} />)
+                            row.push(<Card key={i} img={p[i]} />)
                     }
                     return row;
                 })}

@@ -25,7 +25,7 @@ import React, { useState } from "react";
         }
         else{
             for(let i = 0; i < u_entries; i++) {
-                rows.push(<Card heading={u_heading[i]} date={u_dates[i]} img={u_image[i]} />)
+                rows.push(<Card key={i} heading={u_heading[i]} date={u_dates[i]} img={u_image[i]} />)
             }
         }
         return rows;

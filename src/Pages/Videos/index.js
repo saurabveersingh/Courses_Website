@@ -19,7 +19,7 @@ const Videos = () => {
                         }
                         const row = [];
                         for(let i = 0; i < entries; i++) {
-                            row.push(<Card img={vids[i]} />)
+                            row.push(<Card key={i} img={vids[i]} />)
                     }
                     return row;
                 })}
