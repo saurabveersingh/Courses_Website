@@ -1,7 +1,7 @@
 import './index.css'
 import logo from './productwhite.png'
 function home(){
-    window.location.replace('/');
+    window.scrollTo(0,0);
 }
 const Navbar = () => {
     return (
