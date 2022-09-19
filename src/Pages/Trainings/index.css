@@ -1,0 +1,10 @@
+#trainings_holder h1{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    font-size: 350%;
+    font-weight: 100;
+}
+#trainings_content{
+    display: flex;
+    padding: 20px;
+}

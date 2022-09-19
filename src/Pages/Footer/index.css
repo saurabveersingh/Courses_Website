@@ -1,0 +1,13 @@
+#message{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(247, 96, 9);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 13px;
+}
+#message:hover{
+    cursor: not-allowed;
+}

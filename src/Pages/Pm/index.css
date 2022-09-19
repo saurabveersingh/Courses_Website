@@ -1,0 +1,15 @@
+#pm_holder{
+    padding: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    height: 48vh;
+}
+#pm_holder h1{
+    margin-top: 2%;
+    margin-bottom: 0;
+    font-size: 350%;
+    font-weight: 100;
+}
+#pm_contents{
+    padding: 1%;
+    text-align: left;
+}

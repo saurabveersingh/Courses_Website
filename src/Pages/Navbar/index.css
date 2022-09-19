@@ -1,0 +1,40 @@
+#holder{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+#navbar{
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    background-color: rgb(50, 45, 45);
+    color: white;
+}
+#navbar h3{
+    font-size: 130%;
+    padding: 11px 0;
+    margin: 0;
+    font-weight: 100;
+}
+#nav_left{
+    display: inherit;
+}
+#nav_left:hover{
+    cursor: pointer;
+}
+#subs{
+    background-color: red;
+}
+#cont{
+    background-color: inherit;
+}
+#subs,#cont{
+    border: 0;
+    color: white;
+}
+#subs:hover,#cont:hover{
+    cursor:not-allowed;
+}
+#nav_right{
+    display: inherit;
+}

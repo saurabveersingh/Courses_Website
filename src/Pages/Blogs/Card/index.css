@@ -1,0 +1,36 @@
+.blog_card{
+    width: 24%;
+    height: 35vh;
+    margin: auto 3px;
+    padding: 10px 0 5px 0;
+    font-family:'Times New Roman', Times, serif;
+    background-size: cover;
+    background-position: 50%;
+    text-align: start;
+}
+.blog_card:hover{
+    cursor: not-allowed;
+    border: 5px solid burlywood;
+    border-radius: 20px;
+}
+.blog_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:flex-start;
+    height: inherit;
+    padding: 0 10px;
+}
+.blog_info h3{
+    color: yellow;
+}
+.blog_info h4{
+    color: white;
+    padding-bottom: 5px;
+}
+.blog_info h3,.blog_info h4{
+    margin: 0;
+    font-size: 140%;
+    font-weight: 100;
+    text-shadow: 0 0 5px black;
+}

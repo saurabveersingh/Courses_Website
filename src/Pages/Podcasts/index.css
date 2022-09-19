@@ -1,0 +1,15 @@
+#pocasts_holder{
+    font-family: 'Times New Roman', Times, serif;
+}
+#podcasts_holder h1{
+    margin: 0;
+    font-size: 350%;
+    font-weight: 100;
+}
+#podcasts_content{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    font-weight: 100;
+    font-size: 150%;
+}

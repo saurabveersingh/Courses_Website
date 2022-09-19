@@ -1,0 +1,43 @@
+#conference_holder{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#conference_holder h1{
+    font-weight: 100;
+    font-size: 300%;
+    margin: 20px 0 30px 0;
+}
+#conference_holder p{
+    font-size: 150%;
+    margin: 30px;
+}
+#c_u,#c_p{
+    font-size: larger;
+    padding: 5px 25px;
+    margin-bottom: 20px;
+    font-family:inherit;
+    border-color: white;
+}
+#c_u:hover,#c_p:hover{
+    cursor: pointer;
+}
+#c_u{
+    background-color: white;
+}
+#c_p{
+    background-color: black;
+    color: white;
+}
+#notify{
+    background-color: red;
+    color: white;
+    padding: 5px 30px;
+    font-size: 200%;
+    border-radius: 1000px;
+    margin: 10px 0 30px;
+}
+#notify:hover{
+    cursor: not-allowed;
+}

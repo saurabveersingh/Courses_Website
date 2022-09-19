@@ -1,0 +1,33 @@
+.webinar_card{
+    width: 25%;
+    text-align: left;
+    padding: 10px 0 5px 0;
+    font-family:'Times New Roman', Times, serif;
+    margin: auto 5px;
+    height: 35vh;
+}
+.webinar_card:hover{
+    cursor: not-allowed;
+    border: 5px solid burlywood;
+    border-radius: 20px;
+}
+.webinar_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:flex-start;
+    height: inherit;
+    padding: 0 10px;
+}
+.webinar_info h3{
+    color: yellow;
+}
+.webinar_info h4{
+    color: white;
+    padding-bottom: 5px;
+}
+.webinar_info h3,.webinar_info h4{
+    margin: 0;
+    font-size: 90%;
+    font-weight: 100;
+}

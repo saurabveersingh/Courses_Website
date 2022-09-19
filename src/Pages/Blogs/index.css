@@ -1,0 +1,27 @@
+#blogs_holder{
+    padding: 2% 0% 2% 2%;
+    font-family: 'Times New Roman', Times, serif;
+    height: 48vh;
+    margin-bottom: 13vh;
+}
+#blogs_holder h1{
+    margin-top: 2%;
+    margin-bottom: 0;
+    font-size: 350%;
+    font-weight: 100;
+}
+#blog_content{
+    display: flex;
+    margin: 20px;
+    justify-content: flex-start;
+}
+.arrow_button{
+    background-color: white;
+    border: none;
+    font-size: 200%;
+    margin: auto 0 auto 20px;
+    height: 20%;
+}
+.arrow_button:hover{
+    cursor: not-allowed;
+}

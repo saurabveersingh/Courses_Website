@@ -1,0 +1,32 @@
+.trainings_card{
+    width: 20%;
+    text-align: left;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 0 5px 0;
+    margin: 5px;
+}
+.trainings_card img{
+    width: 40%;
+    padding: 0 10px;
+}
+.trainings_card h4,p{
+    margin: 10px;
+}
+.trainings_card p{
+    font-size: small;
+}
+.fix_height{
+    height: 15%;
+}
+.trainings_card button{
+    display: block;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: larger;
+    margin: 0 auto 10px auto;
+    padding: 2% 14%;
+}
+.trainings_card button:hover{cursor:not-allowed;}

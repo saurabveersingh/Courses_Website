@@ -1,0 +1,45 @@
+#meerups_holder{
+    font-family: 'Times New Roman', Times, serif;
+}
+#meetups_holder h1{
+    margin: 0;
+    font-size: 350%;
+    font-weight: 100;
+}
+#m_d{
+    margin-top: 15px;
+    padding-left:20px;
+}
+#m_u,#m_p,#m_f{
+    font-family:inherit;
+}
+#m_u,#m_p{
+    font-size: larger;
+    padding: 5px 10px;
+    margin: auto 0;
+}
+#m_u:hover,#m_p:hover,#m_f:hover{
+    cursor: pointer;
+}
+#m_u{
+    background-color: black;
+    color: white;
+}
+#m_p{
+    background-color: white;
+}
+#m_f{
+    margin: auto 15px;
+    background-color: white;
+}
+#filter{
+    width: 10px;
+    margin: 2px 4px 0 2px;
+}
+#meetups_content{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    font-weight: 100;
+    font-size: 150%;
+}
