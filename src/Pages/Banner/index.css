@@ -1,6 +1,9 @@
 #banner_holder:hover{
     cursor: pointer;
 }
+#banner_holder{
+    text-shadow: 0 0 2px black;
+}
 #banner{
     margin-top: 8vh;
     background-image: url("conference.jpg");
