@@ -1,3 +1,103 @@
 body {
   margin: 0;
 }
+@media only screen and (max-width:900px){
+  #holder{
+      width: 100vw;
+  }
+  #banner_holder{
+      height: fit-content;
+  }
+  #banner{
+      flex-direction: column;
+      align-items: center;
+      height: fit-content;
+  }
+  #contents{
+    width: 100vw;
+  }
+  #contents a{
+      margin: 5px;
+      display: inline-block;
+      font-size: 110%;
+  }
+  #display{
+      width: 0;
+      height: 0;
+  }
+  #intro_holder{
+      padding: 10px;
+  }
+  #i1{
+      text-align: center;
+  }
+  #i1 img{
+      margin-left: 40vw;
+      width: 40vw;
+  }
+  #i1_mid{
+      display: flex;
+      flex-direction: column;
+  }
+  #i1_mid img{
+      width: 80%;
+      margin: 8%;
+  }
+  #i2{
+     flex-direction: column;
+     padding: 0;
+  }
+  #i2_content{
+      width: 100%;
+  }
+  #i2_content h2{
+      padding: 0;
+  }
+  #i2 img{
+      width: 80%;
+      margin: 8%;
+  }
+  #trainings_content{
+      flex-direction: column ;
+  }
+  .trainings_card{
+      width: 100%;
+  }
+  .webinar_card{
+      width: 100%;
+  }
+  #videos_holder{
+      height: fit-content;
+  }
+  #pm_holder{
+      height: fit-content;
+  }
+  .vids{
+      width: 100%;
+      margin: 3px;
+      height: 50vh;
+  }
+  #blogs_holder{
+      height: fit-content;
+      margin-bottom: 0;
+  }
+  #blog_content{
+      flex-direction: column;
+  }
+  .blog_card{
+      width: 100%;
+      margin: 5px;
+  }
+  .arrow_button{
+      margin-top: 20px;
+  }
+  .arrow_button::before{
+      content: "Load More " ;
+  }
+  #message{
+      right:unset;
+      left: 0;
+      width: 30vw;
+      margin-left: 70vw;
+  }
+}

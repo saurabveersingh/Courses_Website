@@ -1,7 +1,8 @@
 import './index.css'
+import '../../make_responsive.css'
 
 const Footer = () => {
-    return ( 
+    return (
         <div id='footer_holder'>
             <button id="message" onClick={()=>{alert("Comming soon!")}}>Send messa...</button>
         </div>
