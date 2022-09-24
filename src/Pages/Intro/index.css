@@ -39,7 +39,7 @@
 }
 #i1_mid img{
     margin: 60px 0;
-    width: 40%;
+    width: 40vw;
 }
 #i1 button{
     margin-bottom:30px;
@@ -58,15 +58,15 @@
     padding-top: 30px;
 }
 #i2 img{
-    width: 40%;
+    width: 40vw;
 }
 #i2_content{
     color: white;
+    width: 60vw;
 }
 #i2_content h2{
     color: red;
     font-size: 300%;
-    width: 60%;
     padding: 0 110px;
     margin-bottom: 0;
     font-weight: 100;

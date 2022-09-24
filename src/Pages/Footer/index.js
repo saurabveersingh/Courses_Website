@@ -2,7 +2,7 @@ import './index.css'
 
 const Footer = () => {
     return ( 
-        <div>
+        <div id='footer_holder'>
             <button id="message" onClick={()=>{alert("Comming soon!")}}>Send messa...</button>
         </div>
      );
